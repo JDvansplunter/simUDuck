@@ -1,0 +1,7 @@
+C:\Users\daand\Documents\Projects\simUDuck\simUDuck\obj\Debug\simUDuck.csprojResolveAssemblyReference.cache
+C:\Users\daand\Documents\Projects\simUDuck\simUDuck\obj\Debug\simUDuck.csproj.CoreCompileInputs.cache
+C:\Users\daand\Documents\Projects\simUDuck\simUDuck\bin\Debug\simUDuck.exe.config
+C:\Users\daand\Documents\Projects\simUDuck\simUDuck\bin\Debug\simUDuck.exe
+C:\Users\daand\Documents\Projects\simUDuck\simUDuck\bin\Debug\simUDuck.pdb
+C:\Users\daand\Documents\Projects\simUDuck\simUDuck\obj\Debug\simUDuck.exe
+C:\Users\daand\Documents\Projects\simUDuck\simUDuck\obj\Debug\simUDuck.pdb
