@@ -8,7 +8,7 @@ namespace simUDuck
 {
     class FlyNoWay : IflyBehaviour
     {
-        public void fly()
+        public void Fly()
         {
             Console.WriteLine("There is no way i can fly");
         }

@@ -15,20 +15,36 @@ namespace simUDuck
             MallardDuck mallardDuck = new MallardDuck();
             RubberDuck rubberDuck = new RubberDuck();
 
-            mallardDuck.performFly();
-            mallardDuck.performQuack();
+            //mallardDuck.PerformFly();
+            //mallardDuck.PerformQuack();
 
-            rubberDuck.performFly();
-            rubberDuck.performQuack();
+            //rubberDuck.PerformFly();
+            //rubberDuck.PerformQuack();
 
-            ModelDuck modelDuck = new ModelDuck();
-            modelDuck.performFly();
-            modelDuck.setFlyBehaviour(new FlyWithRockets());
-            modelDuck.performFly();
+            //ModelDuck modelDuck = new ModelDuck();
+            //modelDuck.PerformFly();
+            //modelDuck.SetFlyBehaviour(new FlyWithRockets());
+            //modelDuck.PerformFly();
+            WildTurkey wildTurkey = new WildTurkey();
+            TurkeyAdapter turkeyAdapter = new TurkeyAdapter(wildTurkey);
+
+            Console.WriteLine("the turkey says");
+            wildTurkey.Gobble();
+            wildTurkey.Fly();
+
+            Console.WriteLine("\n the duck says...");
+            TestDuck(mallardDuck);
+
+            Console.WriteLine("\n the tukeyAdapter says...");
+            //TestDuck(turkeyAdapter);
 
             Console.WriteLine(); Console.Read();
         }
 
-        
+        static void TestDuck(Duck mallardDuck)
+        {
+            mallardDuck.PerformQuack();
+            mallardDuck.PerformFly();
+        }
     }
 }

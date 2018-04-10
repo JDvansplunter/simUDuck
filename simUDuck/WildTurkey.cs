@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace simUDuck
 {
-    class FlyWithRockets : IflyBehaviour
+    class WildTurkey : Iturkey
     {
         public void Fly()
         {
-            Console.WriteLine("I'm flying with rockets");
+            Console.WriteLine("i'm flying short distances");
+        }
+
+        public void Gobble()
+        {
+            Console.WriteLine("gobble gobble");
         }
     }
 }

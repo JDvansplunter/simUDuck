@@ -8,7 +8,7 @@ namespace simUDuck
 {
     class FlyWithWings : IflyBehaviour
     {
-        public void fly()
+        public void Fly()
         {
             Console.WriteLine("i'm flying");
         }

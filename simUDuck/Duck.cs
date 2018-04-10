@@ -11,22 +11,22 @@ namespace simUDuck
         {
             Console.WriteLine("all ducks float, even decoys");
         }
-        public void performQuack()
+        public void PerformQuack()
         {
             quackBehaviour.quack();
         }
 
-        public void performFly()
+        public void PerformFly()
         {
-            flyBehaviour.fly();
+            flyBehaviour.Fly();
         }
         
-        public void setFlyBehaviour(IflyBehaviour fb)
+        public void SetFlyBehaviour(IflyBehaviour fb)
         {
             flyBehaviour = fb;
         }
 
-        public void setQuakBehaviour(IquackBehaviour qb)
+        public void SetQuakBehaviour(IquackBehaviour qb)
         {
             quackBehaviour = qb;
         }
