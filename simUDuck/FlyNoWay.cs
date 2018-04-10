@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace simUDuck
 {
-    class FlyBehaviour : IflyBehaviour
+    class FlyNoWay : IflyBehaviour
     {
-        void IflyBehaviour.fly()
+        public void fly()
         {
-            Console.WriteLine("i'm flying");
+            Console.WriteLine("There is no way i can fly");
         }
     }
 }

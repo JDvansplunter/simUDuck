@@ -10,12 +10,13 @@ namespace simUDuck
     {
         public MallardDuck()
         {
-            this.quackBehaviour = new QuackBehaviour();
+            this.quackBehaviour = new QuackNoise();
+            this.flyBehaviour = new FlyWithWings();
         }    
         
         public void display()
         {
-            Console.WriteLine("ik ben een malle mallard");0
+            Console.WriteLine("ik ben een malle mallard");
         }
     }
 }

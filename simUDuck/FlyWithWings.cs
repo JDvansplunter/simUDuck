@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace simUDuck
 {
-    class QuackBehaviour : IquackBehaviour
+    class FlyWithWings : IflyBehaviour
     {
-        void IquackBehaviour.quack()
+        public void fly()
         {
-            Console.WriteLine("Quack");
+            Console.WriteLine("i'm flying");
         }
     }
 }

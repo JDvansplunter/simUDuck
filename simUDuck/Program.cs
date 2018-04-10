@@ -12,8 +12,23 @@ namespace simUDuck
         {
             Duck duck = new Duck();
 
-            Console.WriteLine(); Console.Read();
+            MallardDuck mallardDuck = new MallardDuck();
+            RubberDuck rubberDuck = new RubberDuck();
 
+            mallardDuck.performFly();
+            mallardDuck.performQuack();
+
+            rubberDuck.performFly();
+            rubberDuck.performQuack();
+
+            ModelDuck modelDuck = new ModelDuck();
+            modelDuck.performFly();
+            modelDuck.setFlyBehaviour(new FlyWithRockets());
+            modelDuck.performFly();
+
+            Console.WriteLine(); Console.Read();
         }
+
+        
     }
 }

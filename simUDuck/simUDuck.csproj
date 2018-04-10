@@ -43,13 +43,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Duck.cs" />
-    <Compile Include="FlyBehaviour.cs" />
+    <Compile Include="FlyNoWay.cs" />
+    <Compile Include="FlyWithRockets.cs" />
+    <Compile Include="FlyWithWings.cs" />
     <Compile Include="IflyBehaviour.cs" />
     <Compile Include="MallardDuck.cs" />
-    <Compile Include="QuackBehaviour.cs" />
+    <Compile Include="ModelDuck.cs" />
+    <Compile Include="NoNoise.cs" />
+    <Compile Include="QuackNoise.cs" />
     <Compile Include="IquackBehaviour.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RubberDuck.cs" />
+    <Compile Include="SqueekNoise.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
